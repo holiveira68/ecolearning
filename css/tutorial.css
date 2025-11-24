@@ -1,0 +1,191 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-weight: bold;
+    background-color: var(--fundo);
+    color: var(--texto);
+    /*line-height: 1.7;*/
+  }
+  
+  #header_tut {
+    font-family: var(--fonte-principal);
+    background: linear-gradient(90deg, var(--verde), #3cb371);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+  }
+  
+  #header_tut h1 {
+    font-size: 2.6em;
+    margin-bottom: 8px;
+  }
+  
+  #header_tut p {
+    font-size: 1.1em;
+    opacity: 0.9;
+  }
+  
+  #nav_tut {
+    font-family: var(--fonte-principal);
+    background-color: var(--verde-escuro);
+    text-align: center;
+  }
+  
+  #nav_tut a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    transition: background 0.3s;
+  }
+  
+  #nav_tut a:hover {
+    background-color: #184d2f;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px 80px;
+  }
+  
+  section {
+    background: white;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: var(--radius);
+    box-shadow: var(--sombra);
+  }
+  
+  section h2 {
+    color: var(--verde);
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #3cb371;
+    padding-bottom: 8px;
+  }
+  
+  section p {
+    margin-bottom: 16px;
+    text-align: justify;
+    color: var(--texto);
+  }
+  
+  footer {
+    background-color: var(--verde-escuro);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 0.95em;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+@media (max-width: 1024px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    section {
+      padding: 20px;
+    }
+
+  #header_tut h1 {
+    font-size: 1.6em;
+    margin-bottom: 4px;
+  }
+  
+  #header_tut p {
+    font-size: 0.8rem;
+   
+  }
+  section h2 {
+    
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+    
+  }
+  #nav_tut a {
+    font-size: 16px;
+     }
+  }
+
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    section {
+      padding: 20px;
+    }
+
+  #header_tut h1 {
+    font-size: 1.3em;
+    margin-bottom: 4px;
+  }
+  
+  #header_tut p {
+    font-size: 0.8rem;
+   
+  }
+  section h2 {
+    
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+    
+  }
+  #nav_tut a {
+    font-size: 13px;
+  }
+  }
+
+  @media (max-width: 480x) {
+    header h1 {
+      font-size: 1rem;
+    }
+  
+    section {
+      padding: 10px;
+    }
+    #header_tut h1 {
+    font-size: 0.5rem;
+    margin-bottom: 4px;
+  }
+  
+  #header_tut p {
+    font-size: 0.6em;
+    
+  }
+  section h2 {
+    
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+  }
+  
+  section p {
+    margin-bottom: 8px;
+    
+  }
+  #nav_tut a {
+    font-size: 10px;
+  }
+}
